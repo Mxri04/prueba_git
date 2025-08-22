@@ -18,4 +18,5 @@ function getUser(id: number): User | undefined{
         return user;
     }
     return undefined; 
+    console.log('Fetching user with ID: ${id}');
 } 
